@@ -69,21 +69,21 @@
             <hr class="star-dark mb-5">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
-                    <form id="contactForm" name="sentMessage" novalidate="novalidate" action="https://send.pageclip.co/QvSe3cQs1YNmzQgoXtWpC2GjLoUyvxZD" class="pageclip-form" method="post">
+                    <form id="contactForm" name="sentMessage" novalidate="novalidate" action="https://send.pageclip.co/QvSe3cQs1YNmzQgoXtWpC2GjLoUyvxZD/contact" class="pageclip-form" method="post">
                         <div class="control-group">
-                            <div class="mb-0 form-floating controls pb-2"><input class="form-control" type="text" id="name" required="" placeholder="Name"><label class="form-label">Name</label><small class="form-text text-danger help-block"></small></div>
+                            <div class="mb-0 form-floating controls pb-2"><input class="form-control" type="text" name="name" required="" placeholder="Name"><label class="form-label">Name</label><small class="form-text text-danger help-block"></small></div>
                         </div>
                         <div class="control-group">
-                            <div class="mb-0 form-floating controls pb-2"><input class="form-control" type="email" id="email" required="" placeholder="Email Address"><label class="form-label">Email Address</label><small class="form-text text-danger help-block"></small></div>
+                            <div class="mb-0 form-floating controls pb-2"><input class="form-control" type="email" name="email" required="" placeholder="Email Address"><label class="form-label">Email Address</label><small class="form-text text-danger help-block"></small></div>
                         </div>
                         <div class="control-group">
-                            <div class="mb-0 form-floating controls pb-2"><input class="form-control" type="tel" id="phone" required="" placeholder="Phone Number"><label class="form-label">Phone Number</label><small class="form-text text-danger help-block"></small></div>
+                            <div class="mb-0 form-floating controls pb-2"><input class="form-control" type="tel" name="phone" required="" placeholder="Phone Number"><label class="form-label">Phone Number</label><small class="form-text text-danger help-block"></small></div>
                         </div>
                         <div class="control-group">
-                            <div class="mb-5 form-floating controls pb-2"><textarea class="form-control" id="message" required="" placeholder="Message" style="height: 150px;"></textarea><label class="form-label">Message</label><small class="form-text text-danger help-block"></small></div>
+                            <div class="mb-5 form-floating controls pb-2"><textarea class="form-control" name="message" required="" placeholder="Message" style="height: 150px;"></textarea><label class="form-label">Message</label><small class="form-text text-danger help-block"></small></div>
                         </div>
                         <div id="success"></div>
-                        <div><button class="btn btn-primary btn-xl" id="sendMessageButton" type="submit">Send</button></div>
+                        <div><button class="pageclip-form__submit btn btn-primary btn-xl" id="sendMessageButton" type="submit">Send</button></div>
                     </form>
                 </div>
             </div>
